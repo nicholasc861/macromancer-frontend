@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const URL = import.meta.env.BASE_URL;
+const URL = import.meta.env.PORKBUN_URL;
 
 export const getCommands = async () => {
   const { data } = await axios.get(
